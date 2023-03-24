@@ -536,4 +536,22 @@ footer ul li{
         scale: 1;
     }
 }
+.menu_bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    animation: bg 2s;
+    -webkit-animation: bg 2s;
+    background-color: #282828;
+    z-index: 11;
+}
+@keyframes bg{
+    0%{
+        top: -50px;
+    }
+    100%{
+        top: 0px;
+    }
+}
 /* extra css end */

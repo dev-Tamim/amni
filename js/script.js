@@ -27,6 +27,9 @@ $(function(){
   $(window).scroll(function(){
     var scrolling=$(this).scrollTop()
 
+    if (scrolling >20) {
+      $("nav").addClass("menu_bg");
+  }else{$("nav").removeClass("menu_bg")};
 
 
 if (scrolling >20) {
